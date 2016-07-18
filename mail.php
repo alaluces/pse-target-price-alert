@@ -69,8 +69,8 @@ $mail->Host       = 'smtp.gmail.com';             // sets the SMTP server
 $mail->Port       = 587;                          // set the SMTP port for gmail
 $mail->Username   = 'X@gmail.com'; // SMTP account username
 $mail->Password   = 'X';
-$mail->SetFrom('X@gmail.com', 'IT Report');
-$mail->AddReplyTo('X@gmail.com','IT Report'); 
+$mail->SetFrom('X@gmail.com', 'PSE Report');
+$mail->AddReplyTo('X@gmail.com','PSE Report'); 
 
 $body = $report->generateHtmlTable($data);
 
